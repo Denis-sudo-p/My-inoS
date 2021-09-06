@@ -26,11 +26,11 @@
       lcd.print(humidity); 
       lcd.print(" %");
 
-      if (humidity >= 60.00){
+      if (humidity <= 40.00){
         tone(8, 1000);
         }
 
-        if (temperature >= 30.00){
+        if (temperature <= 20.00){
         tone(8, 6650);
         }
       
